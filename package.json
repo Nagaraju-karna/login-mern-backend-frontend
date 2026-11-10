@@ -18,6 +18,7 @@
     "sqlite3": "^6.0.1"
   },
   "allowScripts": {
-    "sqlite3@6.0.1": true
+    "sqlite3@6.0.1": true,
+    "bcrypt@6.0.0": true
   }
 }

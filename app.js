@@ -6,7 +6,7 @@ app.use(express.json())
 const bcrypt = require('bcrypt')
 
 let { open } = require('sqlite')
-let sqlite3 = require('sqlite3')
+const sqlite3 = require('sqlite3')
 
 const jwt = require('jsonwebtoken')
 
@@ -14,7 +14,7 @@ const jwt = require('jsonwebtoken')
 
 
 let path = require('path')
-let dbPath = path.join(__dirname, 'userdetails.db')
+let dbPath = path.join(__dirname, 'new_users.db')
 
 const cors = require('cors')
 
